@@ -12,7 +12,7 @@ import Curriculums from './components/Curriculums';
 function App() {
 
   return (
-    <div className="bg-green-outer-space">
+    <div className="bg-white">
       <Navbar />
       <AboutMe />
       <Stack />
@@ -24,3 +24,5 @@ function App() {
 }
 
 export default App
+
+//bg-green-outer-space
