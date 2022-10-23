@@ -7,20 +7,13 @@ import express from '../assets/expressjs.png';
 import node from '../assets/nodejs.png';
 import postgre from '../assets/postgreSQL.png';
 
+
 function Stack() {
 
-    // var tooltipTriggerList = [].slice.call(
-    //     document.querySelectorAll('[data-bs-toggle="tooltip"]')
-    //   );
-    //   var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-    //     return new Tooltip(tooltipTriggerEl);
-    //   });
-
-
     return (
-        <div className='pt-60 h-[40vh] pb-10 flex flex-row justify-center space-x-44 mr-48 '>
+        <div className='relative flex justify-center p-5 space-x-20 my-[13%] mb-0 bg-black bg-opacity-30'>
             <a name="stack" />
-            <img src={html} className=" w-18 h-16  scale-80 hover:scale-150 ease-in duration-500" title="HTML5" />
+            <img src={html} className="relative w-18  h-16  scale-80 hover:scale-150 ease-in duration-500" title="HTML5" />
             <img src={css} className="w-16 h-16 scale-80 hover:scale-150 ease-in duration-500" title="CSS3" />
             <img src={js} className="w-16 h-16 scale-80 hover:scale-150 ease-in duration-500" title="Javascript" />
             <img src={react} className="w-18 h-16 scale-80 hover:scale-150 ease-in duration-500" title="React JS" />
@@ -31,4 +24,4 @@ function Stack() {
     )
 }
 
-export default Stack
+export default Stack;
