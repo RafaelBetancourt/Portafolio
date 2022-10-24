@@ -14,8 +14,10 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.2",
+    "react-scroll": "^1.8.8",
     "react-simple-typewriter": "^4.0.5",
-    "swiper": "^8.4.4"
+    "swiper": "^8.4.4",
+    "use-history": "^1.4.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",

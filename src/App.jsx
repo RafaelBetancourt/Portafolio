@@ -10,8 +10,8 @@ import image from '../src/assets/fullapp.jpg';
 function App() {
 
   return (
-    <div className="bg-gray-200 w-[100vw] h-[100vh]">
-      <img src={image} className='absolute blur-sm  ' />
+    <div className="bg-gray-200 w-full h-[100vh]">
+      <img src={image} className='absolute blur-md opacity-80  ' />
       <Navbar />
       <AboutMe />
       <Stack />

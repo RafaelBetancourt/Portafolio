@@ -5,12 +5,11 @@ import { Typewriter } from 'react-simple-typewriter';
 
 function AboutMe() {
     return (
-        <div className='relative w-full flex flex-col'>
-            <a name="inicio" />
+        <div className='relative w-full flex flex-col' id="inicio">
             <h1 className="flex flex-row justify-center text-6xl mb-2 pt-28 text-orange-700 font-serif">Acerca de mi</h1>
             <div className="w-full flex flex-row justify-center h-[40vh]">
                 <div className=" w-full flex flex-row justify-center space-x-40 pt-36   ">
-                    <div className='text-xl text-justify w-[40vw] text-orange-700 font-serif '>
+                    <div className='text-xl text-justify w-[40vw] text-orange-700 font-serif backdrop-blur-md rounded-md '>
                         <h1>
                             <span>
                                 <Typewriter
@@ -32,7 +31,7 @@ function AboutMe() {
             <div className='absolute ml-[47%] my-[34%]'>
                 <div className='w-100 h-100 '>
                     <a href='https://drive.google.com/file/d/18hHiSZLllIDh1-_PJXEB2yzrIyuLLspB/view?usp=sharing' target='_blank'>
-                        <button type="button" className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-gray-200 rounded-lg border border-gray-900 hover:bg-gray-900 hover:text-orange-600 focus:z-10 focus:ring-4 focus:ring-gray-900  dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-gray-900 dark:hover:bg-gray-700 ">DESCARGAR CV</button>
+                        <button type="button" className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-gray-200 rounded-lg border border-gray-900 hover:bg-gray-900 hover:text-orange-600 focus:z-10   dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-gray-900 dark:hover:bg-gray-700 ">DESCARGAR CV</button>
                     </a>
                 </div>
             </div>
