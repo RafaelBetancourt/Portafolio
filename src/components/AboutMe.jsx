@@ -6,10 +6,10 @@ import { Typewriter } from 'react-simple-typewriter';
 function AboutMe() {
     return (
         <div className='relative w-full flex flex-col' id="inicio">
-            <h1 className="flex flex-row justify-center text-6xl mb-2 pt-28 text-orange-700 font-serif">Acerca de mi</h1>
+            <h1 className="flex flex-row justify-center text-6xl mb-2 pt-28 text-orange-700 backdrop-blur-sm font-serif">Acerca de mi</h1>
             <div className="w-full flex flex-row justify-center h-[40vh]">
-                <div className=" w-full flex flex-row justify-center space-x-40 pt-36   ">
-                    <div className='text-xl text-justify w-[40vw] text-orange-700 font-serif backdrop-blur-md rounded-md '>
+                <div className=" w-full flex flex-row justify-center space-x-40 pt-28   ">
+                    <div className='text-xl text-justify w-[40vw] p-4 text-orange-700 font-serif backdrop-blur-md rounded-md '>
                         <h1>
                             <span>
                                 <Typewriter
@@ -18,7 +18,7 @@ function AboutMe() {
                                     cursorStyle="_"
                                     typeSpeed={20}
                                     deleteSpeed={false}
-                                    words={["Hola, soy Rafael Betancourt,un desarrollador web, he creado algunos proyectos entre ellos una página de ejercicios caseros para ayudar a las personas que desean ejercitarse desde casa, mi experiencia está dentro del front-end y las cuatro tecnologías principales de mi stack de desarrollo son Javascript, React JS, Tailwind y por supuesto HTML/CSS, sin embargo también manejo tecnologías del back-end tales como: Node JS, Sequelize, PostgreSQL, Oracle PL/SQL. Me gusta estar en constante aprendizaje (en estos momentos me estoy especializando en Typescript y Mongo), me gusta tocar guitarra, caminar y preparar diversos tipos de café."]}
+                                    words={["Hola, soy Rafael Betancourt, desarrollador web, he creado algunos proyectos entre ellos una página de ejercicios caseros para ayudar a las personas que desean ejercitarse desde casa, mi experiencia está dentro del front-end y las cuatro tecnologías principales de mi stack de desarrollo son Javascript, React JS, Tailwind y por supuesto HTML/CSS, sin embargo también manejo tecnologías de back-end tales como: Node JS, Sequelize, PostgreSQL, Oracle PL/SQL. Me gusta estar en constante aprendizaje (en estos momentos me estoy especializando en Typescript y Mongo), me gusta tocar guitarra, caminar y preparar diversos tipos de café."]}
                                 />
                             </span>
                         </h1>

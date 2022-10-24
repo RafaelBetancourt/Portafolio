@@ -15,7 +15,7 @@ function Projects() {
                 <div className="relative mx-3 ml-10">
                     <a href="https://pf-app-five.vercel.app/" target="_blank" className="absolute inset-0 z-10 bg-green-outer-light text-center flex flex-col h-[80%] items-center rounded-lg justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-500">
                         <h1 className="tracking-wider text-5xl text-orange-600 font-serif" >Fit Focus</h1>
-                        <p className="mx-auto text-2xl text-orange-100 font-serif">Proyecto grupal realizado en Henry</p>
+                        <p className="mx-auto text-2xl text-orange-100 font-serif">SPA como proyecto final/grupal de curso "Full Stack Web Developer" en academia Henry.</p>
                         <p className="mx-auto text-xl text-orange-100 font-serif">Click aqui para ir a la página</p>
                     </a>
                     <a className="relative">
@@ -28,7 +28,7 @@ function Projects() {
                 <div className="relative mx-3 ml-10">
                     <a href="https://github.com/RafaelBetancourt/P.I---COUNTRIES" target="_blank" className="absolute inset-0 z-10 bg-green-outer-light text-center flex flex-col h-[80%] items-center rounded-lg justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-500">
                         <h1 className="tracking-wider text-5xl text-orange-600 font-serif" >Countryfy</h1>
-                        <p className="mx-auto text-2xl text-orange-100 font-serif">Proycto individual realizado en Henry</p>
+                        <p className="mx-auto text-2xl text-orange-100 font-serif">Proyecto individual, de tres semanas de duración, para consolidar conocimientos en Front-end, Back-end, Bases de Datos y Javascript</p>
                         <p className="mx-auto text-xl text-orange-100 font-serif">Click aqui para ir al repositorio</p>
                     </a>
                     <a className="relative">

@@ -10,7 +10,7 @@ function Landing() {
             <div className='w-full font-serif'>
                 <img src={celu} className="absolute bg-cover w-[100vw] h-[100vh] blur-sm" />
 
-                <div className='absolute flex ml-28 mt-[10%] text-white text-6xl backdrop-blur-md rounded-md'>
+                <div className='absolute flex ml-28 mt-[10%] p-4 text-white text-6xl backdrop-blur-md rounded-sm'>
                     <div>
                         <h1 >HOLA, SOY </h1>
                     </div>
@@ -19,12 +19,12 @@ function Landing() {
                     </div>
                 </div>
 
-                <div className='absolute flex ml-28 mt-[16%] text-orange-600 font-medium text-5xl backdrop-blur-md rounded-md'>
+                <div className='absolute flex ml-28 mt-[16%] p-4 text-orange-600 font-medium text-5xl backdrop-blur-sm rounded-md'>
                     <h1>DESARROLLADOR WEB FULL STACK</h1>
 
                 </div>
-                <div className='absolute flex ml-28 mt-[26%] backdrop-blur-md rounded-md' >
-                    <p className='text-2xl text-orange-600 font-medium '>Si quieres conocer un poco mas de mi y mi trabajo, <br /> presiona el boton a continuacion</p>
+                <div className='absolute flex p-4 ml-28 mt-[26%] backdrop-blur-sm rounded-md' >
+                    <p className='text-2xl text-orange-600 font-medium '>Si quieres conocer un poco más de mí y mi trabajo, <br /> presiona el botón a continuación</p>
                 </div>
 
                 <div className='absolute flex ml-28 mt-[32%]'>
